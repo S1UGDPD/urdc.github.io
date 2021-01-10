@@ -119,7 +119,7 @@ header {
     font-size: 21px;
 }
 
-.division {
+.division, .team {
     text-align: center;
     float:left;
     width:25%;
@@ -138,11 +138,11 @@ header {
     color:white;
 }
 
-.division-icon img {
+.division-icon img, .team-icon img {
     width: 150px;
 }
 
-.division h3 {
+.division h3, .team h3, .team h4 {
     color:#5f5d60;
 }
 
