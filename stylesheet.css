@@ -7,12 +7,53 @@ a {
     text-decoration: none;
 }
 
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(34,49,52);
+
+    /* Membuat posisi header 'fixed' */
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+
+.logo {
+    width: 104px;
+    margin-top: 15px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.075);
+
+    /* Menambah efek transisi saat hover*/
+    transition: all 0.3s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding-left:25px;
+    padding-right:25px;
+    color:white;
+    display:block;
+}
+
 .banner {
     color: white;
     background-image: url(src/img/top_en.png);
     background-size: cover;
     padding: 89px 0 144px 0;
     text-align: left;
+    margin-top: 65px;
 }
 
 .banner h1 {
@@ -64,46 +105,6 @@ a {
 
 .btn .fas {
     margin-right: 8px;
-}
-
-header {
-    height: 65px;
-    width: 100%;
-    background-color: rgba(34,49,52,0.9);
-
-    /* Membuat posisi header 'fixed' */
-    position:fixed;
-    top:0;
-    z-index:10;
-}
-
-.logo {
-    width: 124px;
-    margin-top: 20px;
-}
-
-.header-left {
-    float: left;
-}
-
-.header-right {
-    float: right;
-    background-color: rgba(255, 255, 255, 0.1);
-
-    /* Menambah efek transisi saat hover*/
-    transition: all 0.3s;
-}
-
-.header-right a {
-    line-height: 65px;
-    padding-left:25px;
-    padding-right:25px;
-    color:white;
-    display:block;
-}
-
-.header-right:hover {
-    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .section {
@@ -185,7 +186,7 @@ header {
 
 /* footer */
 footer img {
-    width:125px;
+    width:90px;
 }
 
 footer p {
