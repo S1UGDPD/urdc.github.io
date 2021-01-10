@@ -45,7 +45,7 @@ header {
 
     border-width: 0 0 0 2px;
     border-style: solid;
-    border-color: rgba(255, 255, 255, 0.075);
+    border-color: rgba(255, 255, 255, 0.05);
 }
 
 .header-right a:hover {
