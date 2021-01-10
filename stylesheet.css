@@ -141,6 +141,12 @@ header .container {
     width:25%;
 }
 
+.division:hover, .team:hover {
+    /*box-shadow:0px 7px rgba(0, 0, 0, 0.075);*/
+    position:relative;
+    bottom:7px;
+}
+
 .division-icon {
     position:relative;
 }
@@ -187,16 +193,13 @@ header .container {
   
 .message {
     padding: 15px 40px;
-    background-color: #5dca88;
-    /* efek 3D untuk tombol */
+    background-color: #4fce81;
+    
     cursor:pointer;
-    box-shadow:0px 7px #1a7940;
 }
-/* efek 3D untuk tombol */
-.message:active {
-    box-shadow:none;
-    position:relative;
-    top:7px;
+
+.message:hover {
+    background-color: #40c073;
   }
 
 /* footer */
