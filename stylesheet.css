@@ -23,8 +23,8 @@ header {
 }
 
 .logo {
-    width: 89px;
-    margin-top: 17px;
+    width: 130px;
+    margin-top: 14px;
 }
 
 .header-right {
@@ -75,7 +75,7 @@ header {
 
 .container {
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 10px;
     width: 1170px;
 
     /* memperbaiki overflow pada float */
@@ -84,7 +84,7 @@ header {
 
 header .container {
     margin: 0;
-    padding: 0 20px;
+    padding: 0 15px;
     width: 1170px;
 }
 
@@ -160,8 +160,12 @@ header .container {
     color:white;
 }
 
-.division-icon img, .team-icon img {
+.division-icon img {
     width: 150px;
+}
+
+.team-icon img {
+    height: 100px;
 }
 
 .division h3, .team h3 {
