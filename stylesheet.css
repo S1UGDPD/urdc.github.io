@@ -206,7 +206,7 @@ header {
     color:rgb(50, 50, 50);
 }
 
-.divs .card {
+.divisions .card {
     height: 400px;
 }
 
@@ -251,9 +251,10 @@ footer img {
 footer p {
     color:#b3aeb5;
     font-size:12px;
+    margin-top: 0;
 }
 
 footer {
-    padding-top:30px;
+    padding-top:25px;
 }
 
