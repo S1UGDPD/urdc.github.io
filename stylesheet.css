@@ -43,7 +43,7 @@ header {
 
 .header-right {
     float: right;
-    margin-right: -25px;
+    margin-right: 0;
 }
 
 .header-right a {
@@ -159,6 +159,8 @@ header {
     margin-top:20px;
     font-size:15px;
     color:#b3aeb5;
+
+    justify-content: center;
 }
 
 /*** TEAMS ***/
@@ -171,6 +173,7 @@ header {
 
 .team-icon {
     height: 100px;
+    align-items: center;
 }
 
 .team-icon img {
@@ -194,13 +197,11 @@ header {
 
 .division-icon {
     height: 100px;
+    align-items: center;
 }
 
 .division-icon i {
-    font-size: 45px;
-    position:absolute;
-    top:54px;
-    left: 0px;
+    font-size: 50px;
     width:100%;
     color:rgb(50, 50, 50);
 }
