@@ -123,12 +123,34 @@ header {
     margin-right: 8px;
 }
 
-/* ================= */
+/* ==================================== */
 .heading {
     padding-top:30px;
     padding-bottom:30px;
     color:#5f5d60;
     font-size: 21px;
+}
+
+.card {
+    float:left;
+    width:25%;
+
+    padding-top: 30px;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.card:hover {
+    position:relative;
+    bottom:7px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+    box-shadow:0px 7px 5px rgba(0, 0, 0, 0.075);
+}
+
+.card h3 {
+    color:#5f5d60;
+    margin: 25px 0 0 0;
 }
 
 .txt-contents {
@@ -139,8 +161,8 @@ header {
     color:#b3aeb5;
 }
 
-/* TEAMS */
-.team-section {
+/*** TEAMS ***/
+#team-section {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -156,32 +178,12 @@ header {
     max-width: 200px;
 }
 
-.team {
-    float:left;
-    width:25%;
-
-    padding-top: 30px;
-
+.teams .card {
     height: 350px;
-    border: 2px solid rgba(0, 0, 0, 0);
 }
 
-.team:hover, .divs:hover {
-    position:relative;
-    bottom:7px;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    
-    box-shadow:0px 7px rgba(0, 0, 0, 0.075);
-}
-
-.team h3, .divs h3 {
-    color:#5f5d60;
-    margin: 25px 0 0 0;
-}
-
-/* DIVISIONS */
-.div-section {
+/*** DIVISIONS ***/
+#div-section {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -191,7 +193,7 @@ header {
 }
 
 .division-icon {
-    position:relative;
+    height: 100px;
 }
 
 .division-icon i {
@@ -200,30 +202,24 @@ header {
     top:54px;
     left: 0px;
     width:100%;
-    color:white;
+    color:rgb(50, 50, 50);
 }
 
-.division-icon img {
-    width: 150px;
-}
-
-.divs {
-    float:left;
-    width:25%;
-
-    padding-top: 30px;
-
+.divs .card {
     height: 400px;
-    border: 2px solid rgba(0, 0, 0, 0);
 }
 
-/* CONTACT */
-.contact-section {
+/*** CONTACT ***/
+#contact-section {
     padding-bottom:80px;
     padding-left: 5%;
     padding-right: 5%;
     text-align: left;
     border-bottom:1px solid #eee;
+}
+
+#contact-section h2 {
+    margin: 0;
 }
 
 .txt-contact {
@@ -236,8 +232,9 @@ header {
 
 .message {
     padding: 15px 40px;
+    margin-top: 10px;
+
     background-color: #4fce81;
-    
     cursor:pointer;
 }
 
