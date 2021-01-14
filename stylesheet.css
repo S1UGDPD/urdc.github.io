@@ -39,11 +39,11 @@ header {
 }
 
 .header-left {
-    float: left;
+    flex: auto;
 }
 
 .header-right {
-    float: right;
+    flex: auto;
 }
 
 .header-right a {
