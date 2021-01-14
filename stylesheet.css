@@ -9,6 +9,21 @@ body {
   
 a {
     text-decoration: none;
+    class="flex-auto"
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-collumn {
+    display: flex;
+    flex-direction: collumn;
+}
+
+.flex-auto {
+    flex: auto;
 }
 
 .wrapper {
@@ -16,7 +31,6 @@ a {
     margin: 0 2.5%;
     width: 100%;
     max-width: 1170px;
-    display: flex;
 
     /* memperbaiki overflow pada float */
     overflow: hidden;
@@ -38,17 +52,7 @@ header {
     margin-top: 14px;
 }
 
-.header-left {
-    flex: auto;
-}
-
-.header-right {
-    flex: auto;
-}
-
 .header-right a {
-    float: left;
-
     line-height: 65px;
     padding:0 30px;
     color:white;
