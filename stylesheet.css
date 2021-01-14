@@ -260,3 +260,20 @@ footer {
 .flex-auto {
     flex: auto;
 }
+
+
+
+/*** RESPONSIVE ***/
+@media (max-width: 1000px) {
+    .card {
+        width: 11.25%;
+    }
+
+}
+
+@media (max-width: 670px) {
+    .card {
+        width: 5.625%;
+    }
+
+}
