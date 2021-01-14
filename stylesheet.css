@@ -14,18 +14,20 @@ a {
 
 .wrapper {
     padding: 0;
-    margin: 0 2.5%;
+    margin: 0 auto;
     width: 100%;
     max-width: 1170px;
 
-    /* memperbaiki overflow pada float */
+    /* memperbaiki overflow pada float
     overflow: hidden;
+    */
 }
 
 header {
     height: 65px;
     width: 100%;
     background-color: rgb(34,49,52);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 
     /* Membuat posisi header 'fixed' */
     position:fixed;
@@ -122,6 +124,7 @@ header {
 }
 
 .card {
+    flex: auto;
     width:22.5%;
     
     padding-top: 30px;
@@ -151,15 +154,33 @@ header {
     width:80%;
     display:inline-block;
     margin-top:20px;
-    font-size:15px;
+    //font-size:15px;
     color:#b3aeb5;
 
     justify-content: center;
 }
 
+/*** NEWS ***/
+#news-section {
+    padding: 40px 5%;
+    text-align: center;
+
+    background-color:#f7f7f7;
+}
+
+.new h3 {
+    color:#5f5d60;
+    text-align: left;
+}
+
+.new p {
+    color:#b3aeb5;
+    text-align: left;
+}
+
 /*** TEAMS ***/
 #team-section {
-    padding: 50px 5%;
+    padding: 40px 5%;
     text-align: center;
 }
 
@@ -179,7 +200,7 @@ header {
 
 /*** DIVISIONS ***/
 #div-section {
-    padding: 50px 5%;
+    padding: 40px 5%;
     text-align: center;
 
     background-color:#f7f7f7;
@@ -215,7 +236,7 @@ header {
     width:100%;
     display:inline-block;
     margin-top:20px;
-    font-size:15px;
+    //font-size:15px;
     color:#b3aeb5;
 }
 
@@ -261,19 +282,38 @@ footer {
     flex: auto;
 }
 
-
+.flex-wrap {
+    flex-wrap: wrap;
+}
 
 /*** RESPONSIVE ***/
-@media (max-width: 1000px) {
+@media all and (max-width: 1000px) {
     .card {
-        width: 11.25%;
+        width: 45%;
+    }
+
+    #banner h1 {
+        font-size: 32px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
     }
 
 }
 
-@media (max-width: 670px) {
+@media all and (max-width: 670px) {
     .card {
-        width: 5.625%;
+        width: 100%;
     }
-
+    
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+  
+    footer {
+        text-align: center;
+      }
+      
 }
