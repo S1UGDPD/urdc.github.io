@@ -13,10 +13,10 @@ a {
 }
 
 .wrapper {
-    padding: 0;
+    padding: 0 20px 0 30px;
     margin: 0 auto;
     width: 100%;
-    max-width: 1170px;
+    //max-width: 1170px;
 
     /* memperbaiki overflow pada float
     overflow: hidden;
@@ -288,21 +288,33 @@ footer {
 
 /*** RESPONSIVE ***/
 @media all and (max-width: 1000px) {
+    .wrapper {
+        padding: 0 15px;   
+    }
+
     .card {
-        width: 45%;
+        width: 50%;
     }
 
     #banner h1 {
         font-size: 32px;
     }
 
+    #banner p {
+        font-size: 21px;
+    }
+
     .heading h2 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
 }
 
 @media all and (max-width: 670px) {
+    .wrapper {
+        padding: 0 10px;   
+    }
+
     .card {
         width: 100%;
     }
