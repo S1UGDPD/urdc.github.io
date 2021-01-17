@@ -36,8 +36,8 @@ header {
 }
 
 .logo {
-    width: 130px;
-    margin-top: 14px;
+    width: 92px;
+    margin-top: 16px;
 }
 
 .header-right a {
@@ -164,8 +164,6 @@ header {
 #news-section {
     padding: 40px 5%;
     text-align: center;
-
-    background-color:#f7f7f7;
 }
 
 .new h3 {
@@ -182,6 +180,8 @@ header {
 #team-section {
     padding: 40px 5%;
     text-align: center;
+
+    background-color:#f7f7f7;
 }
 
 .team-icon {
@@ -202,8 +202,6 @@ header {
 #div-section {
     padding: 40px 5%;
     text-align: center;
-
-    background-color:#f7f7f7;
 }
 
 .division-icon {
@@ -226,6 +224,8 @@ header {
     padding: 50px 5%;
     text-align: left;
     border-bottom:1px solid #eee;
+
+    background-color:#f7f7f7;
 }
 
 #contact-section h2 {
@@ -253,18 +253,18 @@ header {
   }
 
 /* footer */
+footer {
+    padding-top:20px;
+}
+
 footer img {
-    width:90px;
+    width:112px;
 }
 
 footer p {
     color:#b3aeb5;
     font-size:11px;
     margin-top: 0;
-}
-
-footer {
-    padding-top:25px;
 }
 
 /*** ADDITIONAL PROPERTIES ***/
