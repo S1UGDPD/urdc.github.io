@@ -26,13 +26,17 @@ a {
 header {
     height: 65px;
     width: 100%;
-    background-color: rgb(34,49,52);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    //background-color: rgba(34, 49, 52, 0.1);
+    //box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 
     /* Membuat posisi header 'fixed' */
-    position:fixed;
+    position:absolute;
     top:0;
     z-index:10;
+}
+
+hr {
+    margin: 0;
 }
 
 .logo {
@@ -55,22 +59,25 @@ header {
 
 #banner {
     color: white;
+
     background-image: url(src/img/top_en.png);
     background-size: cover;
-    padding: 89px 0 144px 0;
+    background-position-y: -200px;
     text-align: left;
-    margin-top: 65px;
+}
+
+.banner-bg {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 165px 0 125px 0;
 }
 
 #banner h1 {
-    opacity: 0.8;
     font-size: 47px;
     letter-spacing: 3px;
     margin-bottom: 5px;
 }
 
 #banner p {
-    opacity: 0.8;
     margin-bottom: 3px;
 }
 
